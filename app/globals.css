@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap');
+
+#herobg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('/images/glasses-lie-laptop-reflecting-light-from-screen-dark.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 10; /* 80% opacity */
+    z-index: -1;
+}
+/* Hide scrollbar cross-browser */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
