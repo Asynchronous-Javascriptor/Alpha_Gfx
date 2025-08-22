@@ -7,13 +7,16 @@ const About = () => {
                 <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
 
                     <div className="w-full lg:w-1/2 flex justify-center items-center">
+                        alt="Profile"
                         <Image
-                            src="/images/profileee.png"
+                            src="/images/Profile.png"
                             alt="Profile"
-                            width={400} // 👈 Replace with actual width if known
-                            height={400} // 👈 Replace with actual height if known
+                            width={400}
+                            height={400}
+                            unoptimized
                             className="filter grayscale rounded-xl w-full max-w-md mx-auto shadow-[0_0_30px_rgba(163,53,238,0.3)]"
                         />
+
                     </div>
 
                     <div className="w-full lg:w-1/2 text-center flex flex-col gap-8 lg:text-left">
