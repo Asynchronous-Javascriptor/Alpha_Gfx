@@ -7,7 +7,6 @@ const About = () => {
                 <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
 
                     <div className="w-full lg:w-1/2 flex justify-center items-center">
-                        alt="Profile"
                         <Image
                             src="/images/Profile.png"
                             alt="Profile"
